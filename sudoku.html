@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku game</title>
+    <link rel="stylesheet" href="sudoku.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="sudoku.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+
+<body>
+    <div id="time-clock">00:00</div>
+    <h1>Sudoku</h1>
+    <button class="attractive-button" onclick="leavePage()">Click here and press anybutton to avoid loosing your progress</button>
+    <hr>
+    <!-- <div id="points-display">
+        <p>Points: <span id="points">1500</span></p>
+    </div>
+    <h2 id="errors">0</h2> -->
+
+    <div class="score-display">
+        <div id="points-display">
+            <p id="prr">Points: <span id="points">5000</span></p>
+        </div>
+        <div id="errors-display">
+            <p id="err">Errors: <span id="errors">0</span></p>
+        </div>
+    </div>
+
+    <!-- 9x9 board -->
+    <div id="board" ></div>
+    <br>
+    <div id="digits" ></div>
+    <button id="submit-button" onclick="checkCompletion()">Submit</button>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Game</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .start-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none; /* Remove the underline for anchor tag */
+        }
+
+        .start-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sudoku Game Rules</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                text-align: center;
+                margin: 20px;
+                color: #333;
+            }
+    
+            h1 {
+                color: #4CAF50;
+            }
+    
+            p {
+                color: #555;
+                margin-bottom: 20px;
+            }
+    
+            .rules-container {
+                background-color: #f9f9f9;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 20px;
+                text-align: left;
+                max-width: 600px;
+                margin: auto;
+            }
+    
+            .rule-heading {
+                color: #4CAF50;
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+    
+            .rule-description {
+                margin-bottom: 15px;
+            }
+    
+            .example-text {
+                font-style: italic;
+                color: #888;
+            }
+    
+            .winning-criteria {
+                font-weight: bold;
+                color: #4CAF50;
+            }
+
+            @media only screen and (max-width: 600px) {
+            .rules-container {
+                max-width: 100%;
+                margin: 10px;
+            }
+        }
+        #dev{
+            font-size: 1rem;
+            color: rgb(11, 142, 142);
+            font-weight:bold;
+        }
+
+        /* Add this CSS at the end of your existing styles */
+
+
+        </style>
+    </head>
+    
+    <body>
+        <div class="overlay" id="overlay"></div>
+        <h1>Sudoku Game Rules</h1>
+        <div class="rules-container">
+            <p id="dev">Developed by Aifaz khan</p>
+            <div class="rule">
+                <p class="rule-heading">Objective:</p>
+                <p class="rule-description">Fill a 9x9 grid with digits from 1 to 9, ensuring each column, row, and 3x3 subgrid contains all digits.</p>
+            </div>
+    
+            <div class="rule">
+                <p class="rule-heading">Points System:</p>
+                <p class="rule-description">Players earn points based on time and lose points for errors.</p>
+                <ul>
+                    <li>Time Points: 1 point deducted for each second elapsed.</li>
+                    <li>Error Points: 50 points deducted for each incorrect entry.</li>
+                </ul>
+            </div>
+    
+            <div class="rule">
+                <p class="rule-heading">Winning Criteria:</p>
+                <p class="winning-criteria">The player with the higher total points at the end is the winner.</p>
+            </div>
+    
+            <div class="rule">
+                <p class="rule-heading">Game Completion:</p>
+                <p class="rule-description">Complete the game by filling the entire 9x9 grid with valid digits.</p>
+            </div>
+    
+            <div class="rule">
+                <p class="rule-heading">Scoring Example:</p>
+                <p class="rule-description">If a player completes the game in 5 minutes with 2 errors:
+                    <br>
+                    <span class="example-text">Time Points: 300 seconds * 1 point/second = 300 points</span>
+                    <br>
+                    <span class="example-text">Error Points: 2 errors * 50 points/error = 100 points</span>
+                    <br>
+                    <span class="example-text">Total Points = Time Points - Error Points = 300 - 100 = 200 points.</span>
+                </p>
+            </div>
+    
+            <div class="rule">
+                <p class="rule-heading">Winner Declaration:</p>
+                <p class="rule-description">The winner will be announces shortly after the event completion</p>
+            </div>
+    
+            <div class="rule">
+                <p class="rule-heading">Game Restart:</p>
+                <p class="rule-description">Players cannot  restart the game once it is started or he/she will be declared disqualified.</p>
+            </div>
+        </div>
+    </body>
+    
+    </html>
+    
+    <!-- Link to the actual game website -->
+    <a class="start-button" href="sudoku.html">Start Game</a>
+
+   
+
+</body>
+
+</html>
